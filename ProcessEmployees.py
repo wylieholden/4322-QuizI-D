@@ -23,21 +23,20 @@ next(reader)
 employee_salaries = {}
 
 # use a loop to iterate through the csv file
+# for employee in reader:
+# print(employee)
+print()
+# check if the employee fits the search criteria
 for employee in reader:
-    print(employee)
-    
+    if employee[3] == "Management" or "Marketing":
+        print(employee[3], employee[5])
+
+for employee in reader 
+    if employee[3] == "Management" or "Marketing":
+        print(employee[3], (employee[5] *1.1))
 
 
-    # check if the employee fits the search criteria
-for employee in reader:
-    if (employee[3] == 'Marketing' or 'Management'
-        
-        employee[1] = {employee[5]}
-
-
-
-
-print(eq_dict)
+print()
 print()
 
 
