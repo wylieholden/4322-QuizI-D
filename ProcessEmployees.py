@@ -30,7 +30,7 @@ for employee in reader:
 
     # check if the employee fits the search criteria
 for employee in reader:
-    if (employee
+    if (employee[3] == 'Marketing' or 'Management'
         
         employee[1] = {employee[5]}
 
